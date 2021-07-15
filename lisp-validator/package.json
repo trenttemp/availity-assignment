@@ -1,0 +1,15 @@
+{
+  "name": "lisp-validator",
+  "version": "1.0.0",
+  "description": "Program to validate the parentheses of LISP code",
+  "main": "lisp-validator.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "Trentin Gillis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
