@@ -68,7 +68,7 @@ class EnrollmentFileParser:
         :return:
         """
         for company in self.parse_results:
-            csv_filename = self.export_destination + company + "-results.csv"
+            csv_filename = self.export_destination + company.replace(' ', '') + "-enrollees.csv"
             try:
                 with open(csv_filename, 'w') as csv_results_file:
                     writer = csv.DictWriter(csv_results_file, self._csv_columns)
@@ -77,3 +77,5 @@ class EnrollmentFileParser:
                         writer.writerow(data)
             except IOError:
                 print('I/O Error')
+
+        print("Enrollment files exported to " + self.export_destination)
