@@ -1,26 +1,15 @@
-      <Form style={{with: '700px'}}>
-        <Row>
-          <Col>
-            <Form.Group className="mb-3" controlId="firstName">
-              <Form.Label>First Name</Form.Label>
-              <Form.Control
-                type="text"
-                placeholder="First Name"
-                onChange={e => onInputChange('firstName', e)}
-                value={inputs['firstName']} />
-            </Form.Group>
-          </Col>
-          <Col>
-            <Form.Group className="mb-3" controlId="lastName">
-              <Form.Label>Last Name</Form.Label>
-              <Form.Control 
-                type="text"
-                placeholder="Last Name"
-                
-            </Form.Group>
-          </Col>
-        </Row>
-        <Form.Group className="mb-3" controlId="npiNumber">
-          <Form.Label></Form.Label>
-        </Form.Group>
-      </Form>
+# Availity Fullstack Homework Assignment
+
+### Questions:
+
+1. Tell me your proudest professional achievement. It can also be a personal or school project.
+
+2. Tell me about something you have read recently that you would recommend and why. (Can be a Github Repo, Article, Blog, Book, etc)
+
+3. How would you explain to your grandmother whata Availity does?
+
+4. Coding Exercise: LISP Code Parentheses Validator
+
+5. Coding Exercise: React Healthcare Provider Registration Form
+
+6. Coding Exercise: Enrollee CSV File Parser
